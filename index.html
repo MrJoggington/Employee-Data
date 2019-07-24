@@ -16,7 +16,69 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="jumbotron" style="background-color: black; color: white">
+        <h1 class="text-center">
+            <strong>
+                Employee data management
+            </strong>
+        </h1>
+        <h3 class="text-center">
+            <strong>
+                a comprehensive directory of employee billable hours
+            </strong>
+        </h3>
+        </div>
+        <!-- dynamic change div for timeseets -->
+        <div class="row">
+            <div class="col-sm-12">
 
+
+            </div>
+        </div>
+        <!-- div for form and input -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-header">
+                    <strong>
+                        Add Employee
+                    </strong>
+                </div>
+                <div class="card-body">
+                    <!-- html form goes here -->
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="Name">Enter Name</label>
+                            <input type="text" class="form-control" id="name-input">
+                        </div>
+                    <!-- Role -->
+                    <div class="form-group">
+                        <label for="role">Enter Role</label>
+                        <input type="text"class="form-control" id="role-input">
+                    </div>
+                    <!-- date started -->
+                    <div class="form-group">
+                        <label for="start date">start date MM/DD/YYYY</label>
+                        <input type="date" class="form-control" id="date-input">
+                    </div>
+                    <!-- monthly rate -->
+                    <div class="form-group">
+                        <label for="Monthly rate">Monthly rate</label>
+                        <input type="number" class="form-control" id="rate-input">
+                    </div>    
+                    <!-- submit button -->
+                    <button type="submit" class="btn btn-default" id="time-submit">
+                        Submit
+                    </button>
+
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+ 
+    </div>
 <script type="text/javascript" src="./assets/javascript/logic.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.js"
  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
